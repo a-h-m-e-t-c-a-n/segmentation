@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Train",
+            "type": "python",
+            "request": "launch",
+            "program": "train.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Test",
+            "type": "python",
+            "request": "launch",
+            "program": "inference.py",
+            "console": "integratedTerminal",
+            //"args": ["/media/ahmet/Workspace/project/ai/data/sample/pratt/image256","test/result/pratt"]
+            "args": ["test/data","test/result"]
+            //"args": ["test/data/pitt_wide.jpg","test/result"]
+        }
+        ,
+        {
+            "name": "Pratt Test",
+            "type": "python",
+            "request": "launch",
+            "program": "inference.py",
+            "console": "integratedTerminal",
+            "args": ["/media/ahmet/Workspace/project/ai/data/sample/pratt/image256","test/result/pratt"]
+        }
+        ,
+        {
+            "name": "Debug Variant",
+            "type": "python",
+            "request": "launch",
+            "program": "variant.py",
+            "console": "integratedTerminal",
+        }
+    ]
+}
