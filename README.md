@@ -1,3 +1,6 @@
+
+# machine learning / computer vision
+
 ## insan vücut segmentasyonu
 
 bu çalışmada sıfırdan  neurl network unet network tasarımı gerçekleştirildi.zor şartlar altında çalışabilmesi için  keşfettiğim yeni bir eğitim metodu kullandım. accurance oranı 0,96 ya kar çıkarmış oldum.
